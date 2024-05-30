@@ -1,0 +1,358 @@
+{
+    "name": "Inputs_Bulles",
+    "maps": [
+        {
+            "name": "Joueur 1",
+            "id": "0e60077e-a9d8-43b2-a350-d80b706f9c15",
+            "actions": [
+                {
+                    "name": "Haut",
+                    "type": "Button",
+                    "id": "37afab5c-669c-4b5a-ae9e-da67207445e9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Droite",
+                    "type": "Button",
+                    "id": "a3294956-2f78-4e74-b178-6c5df811d486",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Bas",
+                    "type": "Button",
+                    "id": "852df5ac-316f-4c2a-b364-f5df9e9abbe1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Gauche",
+                    "type": "Button",
+                    "id": "eb7cae0e-9eca-4526-a420-deca43b8a9da",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "68219556-7132-4a24-8420-2fe48973958d",
+                    "path": "<Keyboard>/#(Z)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6b49715-f939-470c-956d-d22f87678228",
+                    "path": "<Keyboard>/#(D)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Droite",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "caf95652-639a-4347-b25a-7fc44a251304",
+                    "path": "<Keyboard>/#(S)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bas",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c6b519ab-d070-497a-bae4-9c4a4ac9a8d7",
+                    "path": "<Keyboard>/#(Q)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gauche",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Joueur 2",
+            "id": "71ba3b16-6049-497d-8cbf-b16b700a82c1",
+            "actions": [
+                {
+                    "name": "Haut",
+                    "type": "Button",
+                    "id": "0ac3cd16-1e9e-465e-8fb9-66449315ef92",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Droite",
+                    "type": "Button",
+                    "id": "db4c08f4-1769-4b51-9460-5ff5b42df8b2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Bas",
+                    "type": "Button",
+                    "id": "600fa439-4371-4bf4-b4e4-d4ab46681c7e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Gauche",
+                    "type": "Button",
+                    "id": "5c567395-11ce-4652-82b0-13776072644b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b3049fea-6683-449b-a817-0a78265a0156",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Droite",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c388288a-68c2-42aa-91c2-07ea44e0abea",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bas",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ec16696-f028-4dac-b1f3-42e4d9dc5423",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gauche",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c5f43116-c67f-4fbd-94ad-6b9f7e7d2721",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Joueur 3",
+            "id": "f38beccc-104a-4916-9a4e-e212522b2d8e",
+            "actions": [
+                {
+                    "name": "Haut",
+                    "type": "Button",
+                    "id": "3f56bc36-1350-488c-88ec-14d7ac42fb92",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Droite",
+                    "type": "Button",
+                    "id": "9b17a1ae-4b2a-40c9-8183-76eb92b954e0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Bas",
+                    "type": "Button",
+                    "id": "8b5b1daf-d98b-4b3e-80bd-03b7a3c80773",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Gauche",
+                    "type": "Button",
+                    "id": "922061e4-93b4-4746-9946-e25c2d8f3950",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "35fb6eb7-b80c-42b8-ac96-59acc3495068",
+                    "path": "<Keyboard>/#(O)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d9a6bc12-f6b4-4603-bcd2-8900d047d5b9",
+                    "path": "<Keyboard>/#(M)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Droite",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8b35459d-7d2a-402c-bba1-bc5b068a54f0",
+                    "path": "<Keyboard>/#(L)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bas",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c28e600c-437e-4f7b-bdd7-a865b18a1293",
+                    "path": "<Keyboard>/#(K)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gauche",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Joueur 4",
+            "id": "617df5f1-8faf-4d76-9087-19805f2124ac",
+            "actions": [
+                {
+                    "name": "Haut",
+                    "type": "Button",
+                    "id": "8edc3b34-bb16-4529-bf39-a67af6b2ef45",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Droite",
+                    "type": "Button",
+                    "id": "4dd57f0b-d3dd-43ff-9bea-1b111ba3bf9f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Bas",
+                    "type": "Button",
+                    "id": "d9a8165d-7bc5-47fe-84ae-abfb07db90c1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Gauche",
+                    "type": "Button",
+                    "id": "26504304-d8b5-4bce-866b-157c7fc8d93a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ecd3a9b9-6ec7-41cd-af86-86eefd8b22f0",
+                    "path": "<Keyboard>/#(Y)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Haut",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "62a7eb28-d009-49b8-b270-1ddf4cc1dd40",
+                    "path": "<Keyboard>/#(J)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Droite",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c93db659-6d03-4075-8a39-cb0aab5e4d54",
+                    "path": "<Keyboard>/#(H)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bas",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0bc6d5a8-cb1e-44f1-a931-af46d25c0519",
+                    "path": "<Keyboard>/#(G)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gauche",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

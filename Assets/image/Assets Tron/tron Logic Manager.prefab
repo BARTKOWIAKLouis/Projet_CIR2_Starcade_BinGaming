@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1982826942797808804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2697116731639499624}
+  - component: {fileID: 8709211807094883978}
+  m_Layer: 0
+  m_Name: tron Logic Manager
+  m_TagString: logic_manager_tag
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2697116731639499624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982826942797808804}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8709211807094883978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982826942797808804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd63b8232bf36f244bcc3ace112da102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tron_Menu_Screen: {fileID: 0}
+  Tron_Victory_Screen: {fileID: 0}
+  winner_gameobject: {fileID: 1473704323861664527, guid: 840ce3945996f1147a56596e9403b118, type: 3}
+  player: {fileID: 6348959420945160302, guid: 3e302c324940cbf47894f573238bd03b, type: 3}
+  player_Tab: []
+  state_of_player: {fileID: 4667479238589781019, guid: f573438083ccf064abba95e397f77e1b, type: 3}
+  tab_state_of_player: []
+  pos_of_state_of_player:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  Nb_Player: 0
+  tron_started: 0
+  spawn_position1: {x: 0, y: 0, z: 0}
+  spawn_position2: {x: 0, y: 0, z: 0}
+  spawn_position3: {x: 0, y: 0, z: 0}
+  spawn_position4: {x: 0, y: 0, z: 0}
+  action_maps: []
+  Idmap: 0
+  nb_tron_map: 6
+  tron_map1: {fileID: 5556086843149921188, guid: 9debf5e29dae5ff4a8a806ab27454874, type: 3}
+  tron_map2: {fileID: 1910890040588782569, guid: 95d2a5b65bfc4184c8034e097d58501e, type: 3}
+  tron_map3: {fileID: 5776146617435135749, guid: 7ed106131ab6b4444bae8607e40db46b, type: 3}
+  tron_map4: {fileID: 7654769291295113350, guid: a1b8ad991292d304e8734631e0aee1c4, type: 3}
+  tron_map5: {fileID: 5542628209601803245, guid: 7a421039330d3e3438900791d388c6eb, type: 3}
+  tron_map6: {fileID: 6366283255859294191, guid: 40abd522c6233354c866e680b20f6d27, type: 3}
+  Object_btnR: {fileID: 0}
+  Object_btnL: {fileID: 0}
+  winner_id: 0
+  sprites:
+  - {fileID: 21300000, guid: 4fd98ef53b7b89c4d8b324df67e92e44, type: 3}
+  - {fileID: 21300000, guid: 6fa2d0a7c9ede324795ce7d5c507fee3, type: 3}
+  - {fileID: 21300000, guid: a6a0ba560fa9cf94db0a279993a2a40f, type: 3}
+  - {fileID: 21300000, guid: 63f6822af9c2db14cbb870c474af1efe, type: 3}

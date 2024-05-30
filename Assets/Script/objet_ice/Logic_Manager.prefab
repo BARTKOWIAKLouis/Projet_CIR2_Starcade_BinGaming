@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &305448194381733198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2197909763579314141}
+  - component: {fileID: 2237641668448624575}
+  m_Layer: 0
+  m_Name: Logic_Manager
+  m_TagString: logic_manager_tag
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2197909763579314141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305448194381733198}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2237641668448624575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305448194381733198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f26f55d144522841b5911af1a5205fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SHO_Menu_Screen: {fileID: 0}
+  SHO_Victory_Screen: {fileID: 0}
+  map: {fileID: 316297039165262702, guid: a0ab21f05454e5b4e8eef822d598ed26, type: 3}
+  wining_player: {fileID: 1661373631388946145, guid: ee54ad552e9eecb41bac138a869e58d2, type: 3}
+  player: {fileID: 1661373631388946145, guid: 28ae9540894971a449e88bd4fbf72cb8, type: 3}
+  player_Tab: []
+  Nb_Player: 4
+  action_maps: []
+  sprites:
+  - {fileID: 21300000, guid: d257d78e759db284aaf891f1ffe38189, type: 3}
+  - {fileID: 21300000, guid: 56feb86fc64ddad4196d69c6125c2767, type: 3}
+  - {fileID: 21300000, guid: a02b24035c7a4d841b329533ad13613a, type: 3}
+  - {fileID: 21300000, guid: 767b3e64732c1514aa7310c8e16d70e3, type: 3}
+  lazer_color:
+  - {fileID: 728154870407134591, guid: 43b12fa8c16e1774d84b8213d84a004d, type: 3}
+  - {fileID: 728154870407134591, guid: ab8643e4b1fb1994cb4c43ef832d700a, type: 3}
+  - {fileID: 728154870407134591, guid: 8a0b1d070b3054d4982cd6c9f02a60e3, type: 3}
+  - {fileID: 728154870407134591, guid: 51e39b7266d0ef049830476a85d9dbf7, type: 3}
+  spawn_position1: {x: -5, y: -2, z: 0}
+  spawn_position2: {x: -5, y: 2, z: 0}
+  spawn_position3: {x: 5, y: 2, z: 0}
+  spawn_position4: {x: 5, y: -2, z: 0}
+  winner_id: 0
