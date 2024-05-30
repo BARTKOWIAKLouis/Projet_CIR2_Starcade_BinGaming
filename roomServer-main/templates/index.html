@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src="https://kit.fontawesome.com/60f13ba714.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../public/css/connexion.css">
+</head>
+
+<body>
+    <div class="container mt-5" id="page">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 ">
+                <div class="card mb-3" id="user-card">
+                    <div class="box">
+                    <div class="card-body">
+                        
+                            <span class="borderLine"></span>
+                            <form method="POST" id="form">
+                                <div class="mb-3">
+                                    <h2>Connexion</h2>
+                                    <div class="inputBox">
+                                        <input type="text" class="form-control" id="username" minlength="2" maxlength="20"
+                                            placeholder="Saisir votre pseudo" required>
+                                        <span for="username" class="form-label"></span>
+                                        <i></i>
+                                    </div>     
+                                </div>
+                                <button class="btn btn-secondary" id="start" type="submit">Créer un salon</button>
+                            </form>
+                        
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 d-none" id="rooms-card">
+                    <div class="card-header">Salons disponibles</div>
+                    <ul class="list-group list-group-flush" id="rooms-list"></ul>
+                </div>
+
+                <div class="d-none" id="waiting-area">
+                    <div class="card mb-3">
+                        <div class="card-header">En attente d'autres joueurs</div>
+                        <div class="player-cadre">
+                            <div class="list-players" id="players-list"></div>
+
+                            <div class="spinner-border" role="status" id="spinner">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary" id="disconnect-player">Déconnexion</button>
+
+                </div>
+
+            </div>
+
+            <div class="container waiting-game d-none" id="waiting-game">
+                <div class="darken"></div>
+                <h2 id="message"></h2>
+                <div class="decision-btn">
+                    <button class="btn btn-refuse d-none" id="refuse">Refuser</button>
+                    <button class="btn btn-accept d-none" id="accept">Accepter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="manette d-none" id="manette">
+        <div class="turn-alert">
+            <p>Tournez votre téléphone</p>
+        </div>
+        <div class="container-controller">
+                <div class="keys right-left">
+                    <button id="left" class="button"></button>
+                    <button id="right" class="button"></button>
+
+                </div>
+                <div class="keys power-up">
+                    <button id="A" class="buttons">A</button>
+                    <button id="B" class="buttons">B</button>
+                </div>
+                <div class="keys up-down">
+                    <button id="up" class="button"></button>
+                    <button id="down" class="button"></button>    
+                </div>
+        </div>
+    </div>
+
+    <script src="/jquery/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
